@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "fluted-airline-273213-tfstate"
     prefix = "terraform/state/lab2"
   }
 }
